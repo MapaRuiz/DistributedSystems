@@ -5,6 +5,6 @@
 
 🟧- Subject: Distributed Systems
 
-👨‍🏫- Teacher: Osberth de Cuevas
+👨‍🏫- Teacher: Osberth Cristhian Luef de Castro Cuevas
 
 🏦- University: Pontificia Universidad Javeriana
