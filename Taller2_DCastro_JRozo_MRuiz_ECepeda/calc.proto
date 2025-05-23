@@ -1,0 +1,32 @@
+syntax = "proto3";
+
+package calc;
+
+// Message definitions for OperationService
+message OperationRequest {
+  double value = 1;
+}
+
+message OperationReply {
+  double result = 1;
+}
+
+// Service to square a number
+service OperationService {
+  rpc Square(OperationRequest) returns (OperationReply);
+}
+
+// Message definitions for CalculationService
+message CalculationRequest {
+  double a = 1;
+  double b = 2;
+}
+
+message CalculationReply {
+  double hypotenuse = 1;
+}
+
+// Service to calculate the hypotenuse using two remote square operations
+service CalculationService {
+  rpc Calculate(CalculationRequest) returns (CalculationReply);
+}
