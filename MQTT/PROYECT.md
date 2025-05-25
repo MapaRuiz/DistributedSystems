@@ -9,7 +9,18 @@ This project demonstrates various ways to implement MQTT (Message Queuing Teleme
 
 The project showcases interactions between different clients, including ESP8266 microcontrollers (programmed with Arduino), a Java application, and Python scripts. Scenarios include publishing sensor data, controlling actuators (LEDs, buzzer, servomotor), and sending notifications via Telegram.
 
-## 2. Architecture
+## Table of Contents
+
+- [Architecture](#architecture)
+- [Implementations](#implementations)
+- [General Prerequisites](#prerequisites)
+- [Setup and Configuration](#setup)
+- [How to Run](#howtorun)
+- [Troubleshooting](#troubleshooting)
+- [Contributors](#contributors)
+- [License](#license)
+
+## Architecture
 
 The project is divided into three main parts, each focusing on a different MQTT broker.
 
@@ -48,7 +59,7 @@ The project is divided into three main parts, each focusing on a different MQTT 
     * **Python Subscriber (`suscriptor.py`):** A Python script that connects to the local Mosquitto broker, subscribes to the `sensores/temperatura` topic, and prints received messages.
 * **Diagram Reference:** Installation steps are shown in `Img1.jpg` and `Img2.jpg`.
 
-## 3. Implementations
+## Implementations
 
 ### 3.1. Method 1: EMQX Broker
 
@@ -244,7 +255,7 @@ The project is divided into three main parts, each focusing on a different MQTT 
     * Includes callbacks for connection, message arrival, subscription confirmation, and disconnection.
     * Uses `client.loop_forever()` to maintain the connection and process messages.
 
-## 4. General Prerequisites
+## Prerequisites
 
 * **Software:**
     * Arduino IDE (with ESP8266 board support package installed).
@@ -271,7 +282,7 @@ The project is divided into three main parts, each focusing on a different MQTT 
     * HiveMQ Cloud: Account credentials (username, password) for the cluster.
     * Telegram Bot: You'll need a Bot Token from BotFather and the `chatId` of the user/group to receive messages.
 
-## 5. Setup and Configuration - General Notes
+## Setup
 
 * **WiFi Credentials:** Always update the `ssid` and `password` variables in the Arduino sketches (`.ino` files) to match your WiFi network.
 * **MQTT Broker Addresses & Credentials:**
@@ -291,7 +302,7 @@ The project is divided into three main parts, each focusing on a different MQTT 
 * **Python Scripts:**
     * Ensure `paho-mqtt` is installed in your Python environment.
 
-## 6. How to Run
+## HowToRun
 
 ### 6.1. EMQX Implementation
 1.  **ESP8266 Sensor & Alarm Client:**
@@ -363,7 +374,7 @@ The project is divided into three main parts, each focusing on a different MQTT 
     * Run the script: `python suscriptor.py`
     * Observe console output showing connection and received messages from the publisher.
 
-## 7. Troubleshooting
+## Troubleshooting
 * **ESP8266 WiFi Connection Issues:**
     * Double-check SSID and password.
     * Ensure your WiFi network is 2.4 GHz.
@@ -384,3 +395,16 @@ The project is divided into three main parts, each focusing on a different MQTT 
     * Verify exact topic string match.
     * Check QoS levels.
     * Use an MQTT client tool (MQTT Explorer, `mosquitto_sub/pub`) for independent broker testing.
+ 
+## Contributors
+
+* Maria Paula Rodríguez Ruiz
+* Daniel Felipe Castro Moreno
+* Juan Enrique Rozo Tarache
+* Eliana Katherine Cepeda González
+
+Pontificia Universidad Javeriana – Department of Systems Engineering
+
+## License
+
+This project is developed for educational purposes as part of the Distributed Systems course. No commercial license is granted.
