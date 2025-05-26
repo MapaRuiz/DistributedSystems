@@ -176,5 +176,3 @@ Pontificia Universidad Javeriana – Departamento de Ingeniería de Sistemas
 ## License
 
 This project was developed for academic purposes as part of a Distributed Systems course. No commercial use is authorized without explicit permission.
-
-Let me know if you'd like this exported as a `.md` file or integrated into a GitHub repository structure.
