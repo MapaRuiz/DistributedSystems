@@ -1,0 +1,55 @@
+💓 FACULTY (ID:5) [HBMon]: Monitor de Heartbeats (Async) iniciado.
+ℹ️ FACULTY (ID:5) [Main]: Esperando que HB monitor establezca conexión (3s)...
+💓 FACULTY (ID:5) [HBMon]: Conectado a tcp://10.43.96.50:5555 🟢.
+
+🏫 Facultad Async 'Facultad_5' (ID=5) lista en tcp://*:6004
+
+📥 FACULTY (ID:5): SOL (tx:a573db4f) de Prog:'Prog_5_1'.
+📨 FACULTY (ID:5): SOL (tx:a573db4f) enviada a tcp://10.43.96.50:5555.
+⏱️ FACULTY (ID:5): Métrica 'sol_prop_roundtrip' (tx:a573db4f): 28.02 ms.
+📦 FACULTY (ID:5): PROP (tx:a573db4f) recibida. Enviando ACK.
+👍 FACULTY (ID:5): ACK (tx:a573db4f) enviado a tcp://10.43.96.50:5555.
+⏱️ FACULTY (ID:5): Métrica 'ack_res_roundtrip' (tx:a573db4f): 4970.17 ms.
+📤 FACULTY (ID:5): RES (tx:a573db4f, status:CANCELED) recibida.
+✅ FACULTY (ID:5): Respuesta final (tx:a573db4f) enviada a Prog:'Prog_5_1'.
+📊 FACULTY (ID:5): Métrica 'faculty_processing_total_ms' (tx:a573db4f): 5175.41 ms.
+
+📥 FACULTY (ID:5): SOL (tx:8dbe200e) de Prog:'Prog_5_3'.
+📨 FACULTY (ID:5): SOL (tx:8dbe200e) enviada a tcp://10.43.96.50:5555.
+⏱️ FACULTY (ID:5): Métrica 'sol_prop_roundtrip' (tx:8dbe200e): 28.47 ms.
+📦 FACULTY (ID:5): PROP (tx:8dbe200e) recibida. Enviando ACK.
+👍 FACULTY (ID:5): ACK (tx:8dbe200e) enviado a tcp://10.43.96.50:5555.
+⏱️ FACULTY (ID:5): Métrica 'ack_res_roundtrip' (tx:8dbe200e): 278.26 ms.
+📤 FACULTY (ID:5): RES (tx:8dbe200e, status:ACCEPTED) recibida.
+✅ FACULTY (ID:5): Respuesta final (tx:8dbe200e) enviada a Prog:'Prog_5_3'.
+📊 FACULTY (ID:5): Métrica 'faculty_processing_total_ms' (tx:8dbe200e): 495.99 ms.
+
+📥 FACULTY (ID:5): SOL (tx:f7aa9eff) de Prog:'Prog_5_2'.
+📨 FACULTY (ID:5): SOL (tx:f7aa9eff) enviada a tcp://10.43.96.50:5555.
+⏱️ FACULTY (ID:5): Métrica 'sol_prop_roundtrip' (tx:f7aa9eff): 31.43 ms.
+📦 FACULTY (ID:5): PROP (tx:f7aa9eff) recibida. Enviando ACK.
+👍 FACULTY (ID:5): ACK (tx:f7aa9eff) enviado a tcp://10.43.96.50:5555.
+⏱️ FACULTY (ID:5): Métrica 'ack_res_roundtrip' (tx:f7aa9eff): 279.72 ms.
+📤 FACULTY (ID:5): RES (tx:f7aa9eff, status:ACCEPTED) recibida.
+✅ FACULTY (ID:5): Respuesta final (tx:f7aa9eff) enviada a Prog:'Prog_5_2'.
+📊 FACULTY (ID:5): Métrica 'faculty_processing_total_ms' (tx:f7aa9eff): 472.19 ms.
+
+📥 FACULTY (ID:5): SOL (tx:ab897ae2) de Prog:'Prog_5_4'.
+📨 FACULTY (ID:5): SOL (tx:ab897ae2) enviada a tcp://10.43.96.50:5555.
+⏱️ FACULTY (ID:5): Métrica 'sol_prop_roundtrip' (tx:ab897ae2): 26.91 ms.
+📦 FACULTY (ID:5): PROP (tx:ab897ae2) recibida. Enviando ACK.
+👍 FACULTY (ID:5): ACK (tx:ab897ae2) enviado a tcp://10.43.96.50:5555.
+⏱️ FACULTY (ID:5): Métrica 'ack_res_roundtrip' (tx:ab897ae2): 5190.11 ms.
+📤 FACULTY (ID:5): RES (tx:ab897ae2, status:CANCELED) recibida.
+✅ FACULTY (ID:5): Respuesta final (tx:ab897ae2) enviada a Prog:'Prog_5_4'.
+📊 FACULTY (ID:5): Métrica 'faculty_processing_total_ms' (tx:ab897ae2): 5434.14 ms.
+
+📥 FACULTY (ID:5): SOL (tx:3312bdf2) de Prog:'Prog_5_5'.
+📨 FACULTY (ID:5): SOL (tx:3312bdf2) enviada a tcp://10.43.96.50:5555.
+⏱️ FACULTY (ID:5): Métrica 'sol_prop_roundtrip' (tx:3312bdf2): 48.29 ms.
+📦 FACULTY (ID:5): PROP (tx:3312bdf2) recibida. Enviando ACK.
+👍 FACULTY (ID:5): ACK (tx:3312bdf2) enviado a tcp://10.43.96.50:5555.
+⏱️ FACULTY (ID:5): Métrica 'ack_res_roundtrip' (tx:3312bdf2): 309.50 ms.
+📤 FACULTY (ID:5): RES (tx:3312bdf2, status:ACCEPTED) recibida.
+✅ FACULTY (ID:5): Respuesta final (tx:3312bdf2) enviada a Prog:'Prog_5_5'.
+📊 FACULTY (ID:5): Métrica 'faculty_processing_total_ms' (tx:3312bdf2): 579.91 ms.

@@ -1,0 +1,19 @@
+💓 FACULTY (ID:3) [HBMon]: Monitor de Heartbeats (Async) iniciado.
+ℹ️ FACULTY (ID:3) [Main]: Esperando que HB monitor establezca conexión (3s)...
+💓 FACULTY (ID:3) [HBMon]: Conectado a tcp://10.43.96.50:5555 🟢.
+
+🏫 Facultad Async 'Facultad_3' (ID=3) lista en tcp://*:6002
+
+📥 FACULTY (ID:3): SOL (tx:307cd059) de Prog:'Prog_3_5'.
+📨 FACULTY (ID:3): SOL (tx:307cd059) enviada a tcp://10.43.96.50:5555.
+⏱️ FACULTY (ID:3): Métrica 'sol_prop_roundtrip' (tx:307cd059): 11.95 ms.
+📦 FACULTY (ID:3): PROP (tx:307cd059) recibida. Enviando ACK.
+👍 FACULTY (ID:3): ACK (tx:307cd059) enviado a tcp://10.43.96.50:5555.
+⏱️ FACULTY (ID:3): Métrica 'ack_res_roundtrip' (tx:307cd059): 38.35 ms.
+📤 FACULTY (ID:3): RES (tx:307cd059, status:ACCEPTED) recibida.
+✅ FACULTY (ID:3): Respuesta final (tx:307cd059) enviada a Prog:'Prog_3_5'.
+📊 FACULTY (ID:3): Métrica 'faculty_processing_total_ms' (tx:307cd059): 93.58 ms.
+
+📥 FACULTY (ID:3): SOL (tx:69dd6884) de Prog:'Prog_3_3'.
+📨 FACULTY (ID:3): SOL (tx:69dd6884) enviada a tcp://10.43.96.50:5555.
+⚠️ FACULTY (ID:3): Limpiando TX antigua/sin respuesta: 69dd6884

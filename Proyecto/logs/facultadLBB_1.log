@@ -1,0 +1,47 @@
+💓 FACULTYLBB (ID:1) [HBMonDyn]: Monitor de Heartbeats Dinámico iniciado.
+ℹ️ FACULTYLBB (ID:1) [Main]: Esperando que el HB monitor dinámico establezca un endpoint (3s)...
+💓 FACULTYLBB (ID:1) [HBMonDyn]: Servidor ACTIVO cambiado a: tcp://10.43.96.50:5555
+
+🏫 Facultad LBB 'Facultad_1' (ID=1) lista en tcp://*:6000 (con selección dinámica de servidor)
+
+ℹ️ FACULTYLBB (ID:1): SOL (tx:a370aaad) Prog:'Prog_1_1' (Sal:10,Lab:4).
+📨 FACULTYLBB (ID:1): Enviando a Servidor: tcp://10.43.96.50:5555 (TX:a370aaad)
+⏱️ FACULTYLBB (ID:1): Métrica 'sol_prop_roundtrip' (tx:a370aaad): 12.39 ms.
+📦 FACULTYLBB (ID:1): PROP (tx:a370aaad) recibida. Enviando ACK.
+⏱️ FACULTYLBB (ID:1): Métrica 'ack_res_roundtrip' (tx:a370aaad): 8.68 ms.
+📤 FACULTYLBB (ID:1): RES (tx:a370aaad, status:ACCEPTED) recibida.
+📊 FACULTYLBB (ID:1): Métrica 'faculty_processing_total_ms' (tx:a370aaad): 94.98 ms.
+
+ℹ️ FACULTYLBB (ID:1): SOL (tx:ce97a9c3) Prog:'Prog_1_2' (Sal:10,Lab:4).
+📨 FACULTYLBB (ID:1): Enviando a Servidor: tcp://10.43.96.50:5555 (TX:ce97a9c3)
+⏱️ FACULTYLBB (ID:1): Métrica 'sol_prop_roundtrip' (tx:ce97a9c3): 12.48 ms.
+📦 FACULTYLBB (ID:1): PROP (tx:ce97a9c3) recibida. Enviando ACK.
+⏱️ FACULTYLBB (ID:1): Métrica 'ack_res_roundtrip' (tx:ce97a9c3): 7.72 ms.
+📤 FACULTYLBB (ID:1): RES (tx:ce97a9c3, status:ACCEPTED) recibida.
+📊 FACULTYLBB (ID:1): Métrica 'faculty_processing_total_ms' (tx:ce97a9c3): 79.11 ms.
+
+ℹ️ FACULTYLBB (ID:1): SOL (tx:e7898f0e) Prog:'Prog_1_3' (Sal:10,Lab:4).
+📨 FACULTYLBB (ID:1): Enviando a Servidor: tcp://10.43.96.50:5555 (TX:e7898f0e)
+⏱️ FACULTYLBB (ID:1): Métrica 'sol_prop_roundtrip' (tx:e7898f0e): 12.42 ms.
+📦 FACULTYLBB (ID:1): PROP (tx:e7898f0e) recibida. Enviando ACK.
+⏱️ FACULTYLBB (ID:1): Métrica 'ack_res_roundtrip' (tx:e7898f0e): 9.13 ms.
+📤 FACULTYLBB (ID:1): RES (tx:e7898f0e, status:ACCEPTED) recibida.
+📊 FACULTYLBB (ID:1): Métrica 'faculty_processing_total_ms' (tx:e7898f0e): 95.00 ms.
+
+ℹ️ FACULTYLBB (ID:1): SOL (tx:e172db87) Prog:'Prog_1_4' (Sal:10,Lab:4).
+📨 FACULTYLBB (ID:1): Enviando a Servidor: tcp://10.43.96.50:5555 (TX:e172db87)
+⏱️ FACULTYLBB (ID:1): Métrica 'sol_prop_roundtrip' (tx:e172db87): 12.58 ms.
+📦 FACULTYLBB (ID:1): PROP (tx:e172db87) recibida. Enviando ACK.
+⏱️ FACULTYLBB (ID:1): Métrica 'ack_res_roundtrip' (tx:e172db87): 10.13 ms.
+📤 FACULTYLBB (ID:1): RES (tx:e172db87, status:ACCEPTED) recibida.
+📊 FACULTYLBB (ID:1): Métrica 'faculty_processing_total_ms' (tx:e172db87): 120.31 ms.
+
+ℹ️ FACULTYLBB (ID:1): SOL (tx:bed6c2da) Prog:'Prog_1_5' (Sal:10,Lab:4).
+📨 FACULTYLBB (ID:1): Enviando a Servidor: tcp://10.43.96.50:5555 (TX:bed6c2da)
+⏱️ FACULTYLBB (ID:1): Métrica 'sol_prop_roundtrip' (tx:bed6c2da): 14.82 ms.
+📦 FACULTYLBB (ID:1): PROP (tx:bed6c2da) recibida. Enviando ACK.
+⏱️ FACULTYLBB (ID:1): Métrica 'ack_res_roundtrip' (tx:bed6c2da): 14.62 ms.
+📤 FACULTYLBB (ID:1): RES (tx:bed6c2da, status:ACCEPTED) recibida.
+📊 FACULTYLBB (ID:1): Métrica 'faculty_processing_total_ms' (tx:bed6c2da): 137.08 ms.
+💓 FACULTYLBB (ID:1) [HBMonDyn]: NINGÚN servidor activo detectado.
+💓 FACULTYLBB (ID:1) [HBMonDyn]: Servidor ACTIVO cambiado a: tcp://10.43.96.50:5555

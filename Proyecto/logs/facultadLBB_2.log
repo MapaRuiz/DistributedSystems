@@ -1,0 +1,64 @@
+💓 FACULTYLBB (ID:2) [HBMonDyn]: Monitor de Heartbeats Dinámico iniciado.
+ℹ️ FACULTYLBB (ID:2) [Main]: Esperando que el HB monitor dinámico establezca un endpoint (3s)...
+💓 FACULTYLBB (ID:2) [HBMonDyn]: Servidor ACTIVO cambiado a: tcp://10.43.96.50:5555
+
+🏫 Facultad LBB 'Facultad_2' (ID=2) lista en tcp://*:6001 (con selección dinámica de servidor)
+
+ℹ️ FACULTYLBB (ID:2): SOL (tx:eba9331e) Prog:'Prog_2_1' (Sal:10,Lab:4).
+📨 FACULTYLBB (ID:2): Enviando a Servidor: tcp://10.43.96.50:5555 (TX:eba9331e)
+⏱️ FACULTYLBB (ID:2): Métrica 'sol_prop_roundtrip' (tx:eba9331e): 18.32 ms.
+📦 FACULTYLBB (ID:2): PROP (tx:eba9331e) recibida. Enviando ACK.
+⏱️ FACULTYLBB (ID:2): Métrica 'ack_res_roundtrip' (tx:eba9331e): 11.24 ms.
+📤 FACULTYLBB (ID:2): RES (tx:eba9331e, status:ACCEPTED) recibida.
+📊 FACULTYLBB (ID:2): Métrica 'faculty_processing_total_ms' (tx:eba9331e): 89.91 ms.
+
+ℹ️ FACULTYLBB (ID:2): SOL (tx:1148703e) Prog:'Prog_2_2' (Sal:10,Lab:4).
+📨 FACULTYLBB (ID:2): Enviando a Servidor: tcp://10.43.96.50:5555 (TX:1148703e)
+⏱️ FACULTYLBB (ID:2): Métrica 'sol_prop_roundtrip' (tx:1148703e): 13.07 ms.
+📦 FACULTYLBB (ID:2): PROP (tx:1148703e) recibida. Enviando ACK.
+⏱️ FACULTYLBB (ID:2): Métrica 'ack_res_roundtrip' (tx:1148703e): 10.45 ms.
+📤 FACULTYLBB (ID:2): RES (tx:1148703e, status:ACCEPTED) recibida.
+📊 FACULTYLBB (ID:2): Métrica 'faculty_processing_total_ms' (tx:1148703e): 84.54 ms.
+
+ℹ️ FACULTYLBB (ID:2): SOL (tx:41f7c630) Prog:'Prog_2_3' (Sal:10,Lab:4).
+📨 FACULTYLBB (ID:2): Enviando a Servidor: tcp://10.43.96.50:5555 (TX:41f7c630)
+⏱️ FACULTYLBB (ID:2): Métrica 'sol_prop_roundtrip' (tx:41f7c630): 9.75 ms.
+📦 FACULTYLBB (ID:2): PROP (tx:41f7c630) recibida. Enviando ACK.
+⏱️ FACULTYLBB (ID:2): Métrica 'ack_res_roundtrip' (tx:41f7c630): 9.86 ms.
+📤 FACULTYLBB (ID:2): RES (tx:41f7c630, status:ACCEPTED) recibida.
+📊 FACULTYLBB (ID:2): Métrica 'faculty_processing_total_ms' (tx:41f7c630): 75.12 ms.
+
+ℹ️ FACULTYLBB (ID:2): SOL (tx:7e02d25c) Prog:'Prog_2_4' (Sal:10,Lab:4).
+📨 FACULTYLBB (ID:2): Enviando a Servidor: tcp://10.43.96.50:5555 (TX:7e02d25c)
+⏱️ FACULTYLBB (ID:2): Métrica 'sol_prop_roundtrip' (tx:7e02d25c): 11.68 ms.
+📦 FACULTYLBB (ID:2): PROP (tx:7e02d25c) recibida. Enviando ACK.
+⏱️ FACULTYLBB (ID:2): Métrica 'ack_res_roundtrip' (tx:7e02d25c): 11.67 ms.
+📤 FACULTYLBB (ID:2): RES (tx:7e02d25c, status:ACCEPTED) recibida.
+📊 FACULTYLBB (ID:2): Métrica 'faculty_processing_total_ms' (tx:7e02d25c): 82.67 ms.
+
+ℹ️ FACULTYLBB (ID:2): SOL (tx:045bf6bf) Prog:'Prog_2_5' (Sal:10,Lab:4).
+📨 FACULTYLBB (ID:2): Enviando a Servidor: tcp://10.43.96.50:5555 (TX:045bf6bf)
+⏱️ FACULTYLBB (ID:2): Métrica 'sol_prop_roundtrip' (tx:045bf6bf): 15.74 ms.
+📦 FACULTYLBB (ID:2): PROP (tx:045bf6bf) recibida. Enviando ACK.
+⏱️ FACULTYLBB (ID:2): Métrica 'ack_res_roundtrip' (tx:045bf6bf): 16.31 ms.
+📤 FACULTYLBB (ID:2): RES (tx:045bf6bf, status:ACCEPTED) recibida.
+📊 FACULTYLBB (ID:2): Métrica 'faculty_processing_total_ms' (tx:045bf6bf): 113.39 ms.
+💓 FACULTYLBB (ID:2) [HBMonDyn]: NINGÚN servidor activo detectado.
+💓 FACULTYLBB (ID:2) [HBMonDyn]: Servidor ACTIVO cambiado a: tcp://10.43.96.50:5555
+💓 FACULTYLBB (ID:2) [HBMonDyn]: NINGÚN servidor activo detectado.
+💓 FACULTYLBB (ID:2) [HBMonDyn]: Servidor ACTIVO cambiado a: tcp://10.43.96.50:5555
+
+ℹ️ FACULTYLBB (ID:2): SOL (tx:2aa68399) Prog:'Prog_2_1' (Sal:10,Lab:4).
+📨 FACULTYLBB (ID:2): Enviando a Servidor: tcp://10.43.96.50:5555 (TX:2aa68399)
+❗ FACULTYLBB (ID:2): Excepción general (TX:2aa68399): OperationalError('attempt to write a readonly database')
+Facultad LBB terminada.
+Traceback (most recent call last):
+  File "/home/estudiante/Documents/ProyectoMetricas/facultylbb.py", line 257, in <module>
+    main()
+  File "/home/estudiante/Documents/ProyectoMetricas/facultylbb.py", line 253, in main
+    main_faculty_loop_dynamic_server(args, ctx)
+  File "/home/estudiante/Documents/ProyectoMetricas/facultylbb.py", line 230, in main_faculty_loop_dynamic_server
+    record_event_metric(kind="faculty_processing_total_ms",value=processing_time_faculty_ms,src=f"FacultadLBB:{args.faculty_id}",dst=f"Programa:{prog_name}")
+  File "/home/estudiante/Documents/ProyectoMetricas/datastore.py", line 180, in record_event_metric
+    conn.execute(
+sqlite3.OperationalError: attempt to write a readonly database

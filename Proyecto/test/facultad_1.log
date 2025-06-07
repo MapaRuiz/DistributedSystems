@@ -1,0 +1,9 @@
+💓 FACULTY (ID:1) [HBMon]: Monitor de Heartbeats (Async) iniciado.
+ℹ️ FACULTY (ID:1) [Main]: Esperando que HB monitor establezca conexión (3s)...
+💓 FACULTY (ID:1) [HBMon]: Conectado a tcp://10.43.96.50:5555 🟢.
+
+🏫 Facultad Async 'Facultad_1' (ID=1) lista en tcp://*:6000
+
+📥 FACULTY (ID:1): SOL (tx:bfae0762) de Prog:'Prog_1_3'.
+📨 FACULTY (ID:1): SOL (tx:bfae0762) enviada a tcp://10.43.96.50:5555.
+⚠️ FACULTY (ID:1): Limpiando TX antigua/sin respuesta: bfae0762
